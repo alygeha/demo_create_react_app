@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import DemoForm from './components/demo/DemoForm';
 import './App.css';
+import './App2.css';
 
 class App extends Component {
   render() {
