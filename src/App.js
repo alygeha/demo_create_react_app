@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import DemoForm from './components/demo/DemoForm';
 import './App.css';
-import './App2.css';
 
 class App extends Component {
   render() {
@@ -13,6 +12,9 @@ class App extends Component {
           <h1 className="App-title">Welcome to React</h1>
         </header>
         <div className="App-intro">
+          <h1>Hello From My Awesome App </h1>
+        </div>
+        <div className="App-content">          
           <DemoForm/>
         </div>
       </div>

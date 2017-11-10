@@ -1,0 +1,68 @@
+[33mcommit 8998c5108d616c737fc332e5ab86e11e5cf5ef0b[m[33m ([m[1;36mHEAD -> [m[1;32mfeat2_ag[m[33m, [m[1;31morigin/feat2_ag[m[33m, [m[1;32mdevelop[m[33m)[m
+Merge: 76a7f1a 008304b
+Author: SIEGE\S640595 <ali.geha@axa.fr>
+Date:   Wed Oct 18 11:20:13 2017 +0200
+
+    Merge branch 'feat2_ag' into develop
+
+[33mcommit 76a7f1ad293111311fd122f603a134de310ea170[m[33m ([m[1;31morigin/develop[m[33m)[m
+Author: alygeha <geha.ali@gmail.com>
+Date:   Wed Oct 18 11:17:56 2017 +0200
+
+    changing style (#3)
+
+[33mcommit 008304b619c866d07db73153ff0b2f06622ce389[m
+Author: SIEGE\S640595 <ali.geha@axa.fr>
+Date:   Wed Oct 18 11:17:15 2017 +0200
+
+    changing style
+
+[33mcommit 41f63c13970aca2c4db81582e8389920dde0d338[m
+Merge: 52eb40a 0f590db
+Author: alygeha <geha.ali@gmail.com>
+Date:   Wed Oct 18 11:10:11 2017 +0200
+
+    Merge pull request #2 from alygeha/feat2_ag
+    
+    change style
+
+[33mcommit 0f590dba3f1cb6e221ba51eb716c6da793643e45[m
+Author: SIEGE\S640595 <ali.geha@axa.fr>
+Date:   Wed Oct 18 11:05:16 2017 +0200
+
+    change style
+
+[33mcommit 52eb40a83eaf9f4331d35c45b3e7659444ffe851[m
+Merge: ca4bd58 e3dab88
+Author: SIEGE\S640595 <ali.geha@axa.fr>
+Date:   Wed Oct 18 11:00:49 2017 +0200
+
+    Merge branch 'feat2_ag' into develop
+
+[33mcommit ca4bd583b8ea1643254e9cfa15d21b55d9494cad[m
+Author: alygeha <geha.ali@gmail.com>
+Date:   Wed Oct 18 10:55:40 2017 +0200
+
+    Feat2 ag (#1)
+    
+    * add sass filestatus
+    
+    * add App.scss
+
+[33mcommit e3dab88b947c00202355144ec608d6721430db4f[m
+Author: SIEGE\S640595 <ali.geha@axa.fr>
+Date:   Wed Oct 18 10:44:22 2017 +0200
+
+    add App.scss
+
+[33mcommit bcce30eddbfdd15c9e91972b5fe0a39c87a21d96[m
+Author: SIEGE\S640595 <ali.geha@axa.fr>
+Date:   Wed Oct 18 10:43:17 2017 +0200
+
+    add sass filestatus
+
+[33mcommit dd85a98b147730be2acd2a56a1e70cf76ca1e383[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/feat1_lg[m[33m, [m[1;32mmaster[m[33m)[m
+Author: GEHA Ali <S640595@siege.axa-fr.intraxa>
+Date:   Mon Oct 16 16:50:53 2017 +0200
+
+    initial commit

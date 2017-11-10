@@ -22,6 +22,7 @@ class DemoForm extends Component {
     }
 
     onBlurHandler = (event) => {
+        debugger;
         let inputValue = event.target.value;
         if (inputValue.length > 13) {
             this.setState({error: this.errorMessage});
@@ -37,9 +38,7 @@ class DemoForm extends Component {
       const {updateInputStateChange, onBlurHandler} = this;
       return (
           <form>
-              <div>
-                  <h1>Hello From My Awesome App</h1>
-                  <br />
+              <div className='form-group'>                                 
                   <h2>Please enter a value here</h2>
                   <TextInput name='demo-input' label='Demo Input' value={textInputValue} onChange={updateInputStateChange} onBlur={onBlurHandler} error={error} />
               </div>
