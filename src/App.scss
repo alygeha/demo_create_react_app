@@ -1,32 +1,44 @@
-$color: red;
+$cyan: #15e7e7;
+$red: #ee0000;
 
-.App {
-    background-color: $color;
-}
 
-.App {
-    text-align: center;
+@mixin background($color) {
+  background-color: $color;
+ }
+
+  .App {
+    text-align: center;   
   }
   
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
-    height: 80px;
+    height: 80px;   
   }
   
   .App-header {
-    background-color: #222;
+    @include background(#222);   
     height: 150px;
     padding: 20px;
-    color: white;
+    color: white;  
   }
   
   .App-title {
-    font-size: 1.5em;
+    font-size: 1.5em;    
   }
   
   .App-intro {
     font-size: large;
+    @include background($cyan);
   }
+
+  .App-content {
+    max-width: 400px;
+    align-content: center;
+
+    input {
+      max-width:200px;
+    }
+  } 
   
   @keyframes App-logo-spin {
     from { transform: rotate(0deg); }
