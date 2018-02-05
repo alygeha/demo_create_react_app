@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase="" href="">
+    <information>
+        <title>File Renamer</title>
+        <vendor>Axa</vendor>
+    </information>
+    <resources>
+        <!-- Application Resources -->
+        <j2se version="1.6+"
+            href="http://java.sun.com/products/autodl/j2se" />
+        <jar href="../../Content/jupload/filerenamer.jar" main="true" />
+    </resources>
+    <applet-desc 
+         name="File Renamer"
+         main-class="fr.axa.applet.RenamerApplet"
+         width="1"
+         height="1">
+     </applet-desc>
+     <security>
+	  <all-permissions/>
+	</security>
+     <update check="always" policy="always" />
+</jnlp>

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import DemoForm from './components/demo/DemoForm';
+import {JurWidgetApp} from '../../widgetpj/static/js/main.cf7abf43.js'
 import './App.css';
 
 class App extends Component {
@@ -15,7 +16,7 @@ class App extends Component {
           <h1>Hello From My Awesome App </h1>
         </div>
         <div className="App-content">          
-          <DemoForm/>
+          <JurWidgetApp/>
         </div>
       </div>
     );
